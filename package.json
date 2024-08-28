@@ -1,0 +1,19 @@
+{
+  "name": "@ddazal/jwtool",
+  "version": "0.1.0",
+  "description": "A simple CLI tool for working with JWTs",
+  "bin": {
+    "jwtool": "./index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["jwt", "cli", "token"],
+  "author": "David Daza <03dazal@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2",
+    "yargs": "^17.7.2"
+  }
+}
