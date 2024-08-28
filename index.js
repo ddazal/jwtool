@@ -46,5 +46,8 @@ yargs
       console.error('Error decoding JWT:', error.message);
     }
   })
+  .command('help', 'Show help information', () => {
+    yargs.showHelp();
+  })
   .help()
   .argv;

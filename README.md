@@ -10,9 +10,11 @@ You can install JWTool globally using npm:
 npm install -g @ddazal/jwtool
 ```
 
+Replace `@ddazal` with the actual npm scope you're using for this package.
+
 ## Usage
 
-JWTool provides two main commands: `sign` and `decode`.
+JWTool provides three main commands: `sign`, `decode`, and `help`.
 
 ### Signing a JWT
 
@@ -52,6 +54,16 @@ jwtool decode eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9... mysecretkey
 
 This will output the decoded payload if the signature is valid.
 
+### Getting Help
+
+To see help information and a list of available commands:
+
+```bash
+jwtool help
+```
+
+You can also use `jwtool --help` to see the same information.
+
 ## Error Handling
 
 JWTool will display error messages if:
@@ -70,6 +82,10 @@ JWTool uses the following npm packages:
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License.
 
 
 ---
