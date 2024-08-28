@@ -10,8 +10,6 @@ You can install JWTool globally using npm:
 npm install -g @ddazal/jwtool
 ```
 
-Replace `@ddazal` with the actual npm scope you're using for this package.
-
 ## Usage
 
 JWTool provides three main commands: `sign`, `decode`, and `help`.
